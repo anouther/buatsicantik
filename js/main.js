@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('GIPY, I LOVE YOU').split('');
+        const titles = ('For My Pretty Girl').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "Makasih udah mau percaya sama aku buat bikinin hadiah buat kalian kasih ke orang spesial 🤍🤍";
+            subtitle.innerText = "Ehem aa eja mau pantun dulu. Gitar kupetik, bas kubetot. Kiw nona cantik, apa kamu termasuk 7 keajaiban dunia versi on the spot? buat sicantik yang lagi badmood karna pms gua mau bilang lu itu kalau lagi senyum lucu banget buset dh ga nahan. pipinya ngembang otomatis gitu kaya adonan roti bikin gua mau gigit boleh ga? ";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
